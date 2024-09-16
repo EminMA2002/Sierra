@@ -1,0 +1,162 @@
+
+.dta{
+    margin-top: 70px;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.dtachild{
+    max-width: 1560px;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+border-radius: 20px;
+width: 100%;
+height: 70vh;
+background: linear-gradient(131deg, rgba(126,72,242,1) 0%, rgba(246,122,192,1) 50%, rgba(252,189,108,1) 100%);
+}
+
+.dtachild100deg{
+    width: 100%;
+    height: 100%;
+}
+
+.dtachildrelative{
+    width: 60%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.last2gr{
+    margin-top: 90px;
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    rotate: 10deg;
+    width: 100%;
+    height: 70vh;
+}
+
+.lastphone1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.lastphone2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.dtatitle{
+    font-family: interbold;
+    color: white;
+    font-size: 40px;
+}
+
+.dtsleft{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.dtatext{
+
+    max-width: 90%;
+    font-family: interregu;
+    color: white;
+    font-size: 18px;
+}
+
+.dtabuttons{
+    display: flex;
+    gap: 10px;
+}
+
+.dtabutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: interregu;
+    color: white;
+    font-size: 18px; 
+    width: 160px;
+    height: 50px;
+    border-width: 0;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+.dtabutton:hover{
+    color: #000000; 
+    background-color: #fff;
+}
+
+
+
+
+@media only screen and (max-width:1250px) {
+   
+    .dta{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .dtachild{
+        padding: 0 0 0 5%;
+    }
+
+   }
+
+
+   @media only screen and (max-width:1025px) {
+   
+
+    .dtachildrelative{
+        display: none;
+    }
+
+    .dtachild{
+        padding: 0;
+        height: 40vh;
+    }
+
+    .dtsleft{
+        padding: 0;
+        max-width: 100%;
+        width: 100%;
+        align-items: center;
+    }
+
+    .dtatitle{
+        text-align: center;
+        margin: 0 5%;
+    }
+
+    .dtatext{
+        max-width: 50%;
+        text-align: center;
+    }
+
+   }
+
+
+   @media only screen and (max-width:770px) {
+   
+    .dtachild{
+        height: 50vh;
+    }
+   
+
+   }
+
+
+   

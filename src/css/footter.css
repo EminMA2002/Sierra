@@ -1,0 +1,84 @@
+.footterfather{
+    width: 100%;
+    padding: 0 0 0 10%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.footterchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10%;
+}
+
+.tab1father{
+    font-family: interbold;
+    font-size: 18px;
+    color: white;
+}
+
+.tab1child{
+    font-family: interlight;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.433);
+}
+
+.tab1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+@media only screen and (max-width:1250px) {
+   
+    .footterfather{
+        padding: 0 2%;
+    }
+   }
+
+@media only screen and (max-width:900px) {
+   
+    .tab1father{
+        font-size: 16px;
+    }
+    
+    .tab1child{
+        font-size: 14px;
+    }
+   }
+
+   @media only screen and (max-width:900px) {
+   
+    .tab1father{
+        font-size: 14px;
+    }
+    
+    .tab1child{
+        font-size: 12px;
+    }
+   }
+
+   @media only screen and (max-width:680px) {
+   
+    .footterchild{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .tab1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tab1father{
+        font-size: 18px;
+    }
+    
+    .tab1child{
+        font-size: 16px;
+    }
+
+   }

@@ -1,0 +1,126 @@
+@import url(nav.css);
+@import url(fonts.css);
+@import url(landingfather.css);
+@import url(howitworks.css);
+@import url(Boostproductivity.css);
+@import url(reviews.css);
+@import url(dta.css);
+@import url(footter.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.carouselfather{
+    width: 100%;
+    height: 200vh;
+    padding: 0 10%;
+    margin-top: 170px;
+}
+
+.carouselchild{
+    width: 100%;
+    height: 100%;
+    background-color: #0D0D0D;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.exploretheapp{
+    text-align: center;
+    font-size: 18px;
+    font-family: interregu;
+    color: #7446F4;
+}
+
+.youtvirtual{
+    text-align: center;
+    font-size:  48px;
+    font-family: interbold;
+    color: white;
+}
+
+.takeasneak{
+    text-align: center;
+    font-size: 18px;
+    font-family: interlight;
+    color: rgba(255, 255, 255, 0.451);
+}
+
+.carouseltext{
+    width: 100%;
+}
+
+.carouseltextchild{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.carousel{
+    margin-top: 70px;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    transform: translateX(-40px);
+}
+
+.slider{
+    width: 220px;
+}
+
+.sliderimg{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carouselbuttons{
+    margin-top: 75vh;
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+}
+
+.carouselbutton{
+    background-color: #393939;
+    width: 10px;
+    height: 10px;
+    border-radius: 99px;
+}
+
+.carouselbutton1{
+    background-color: #393939;
+    width: 10px;
+    height: 10px;
+    border-radius: 99px;
+}
+
+.carouselbutton2{
+    background-color: #393939;
+    width: 10px;
+    height: 10px;
+    border-radius: 99px;
+}
+
+.carouselbutton3{
+    background-color: #393939;
+    width: 10px;
+    height: 10px;
+    border-radius: 99px;
+}
+
+.carouselbutton4{
+    background-color: #393939;
+    width: 10px;
+    height: 10px;
+    border-radius: 99px;
+}

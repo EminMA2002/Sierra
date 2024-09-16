@@ -1,0 +1,190 @@
+
+.howitworks{
+    text-align: center;
+    font-size: 18px;
+    font-family: interregu;
+    color: #7446F4;
+}
+
+.getting{
+    text-align: center;
+    font-size:  48px;
+    font-family: interbold;
+    color: white;
+}
+
+.Downloadtheapp{
+    text-align: center;
+    font-size: 18px;
+    font-family: interlight;
+    color: rgba(255, 255, 255, 0.451);
+}
+
+.texts1{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.texts1child{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.stepsfather{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.stepschild{
+    
+    max-width: 1560px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #0D0D0D;
+    display: flex;
+    padding: 3% 5%;
+    justify-content: space-between;
+}
+
+.step{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.step1head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Downloadicon{
+    font-size:55px;
+    color: white;
+}
+
+.step1button{
+    width: 70px;
+    height: 30px;
+    border-radius: 12px;
+    background-color:#7446F4 ;
+    color: white;
+    font-family: interbold;
+    font-size: 12px;
+    border-width: 0;
+}
+
+
+.step1title{
+    font-family: interbold;
+    color: white;
+    font-size: 20px;
+}
+
+
+.step1text{
+    font-family: interlight;
+    color: rgba(255, 255, 255, 0.293);
+    font-size: 18px;
+}
+
+.arrowtoright{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 99px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1E1E1E;
+}
+
+.gearicon{
+    font-size:55px;
+    color: white;
+}
+
+.tagicon{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    font-size:55px;
+    color: white;
+}
+
+@media only screen and (max-width:720px) {
+ 
+    .getting{
+        text-align: center;
+        font-size:  30px;
+        font-family: interbold;
+        color: white;
+    }
+    
+}
+
+
+@media only screen and (max-width:985px) {
+ 
+    .stepsfather{
+        padding: 0 2%;
+    }
+    
+    .Downloadicon{
+        font-size:45px;}
+     .gearicon{
+        font-size:45px;}
+        
+        .tagicon{
+        font-size:45px;}
+
+        .step1title{
+            font-size: 14px;}
+        .step1text{
+            font-size: 12px;}
+
+        .arrowtoright{
+                width: 40px;
+                height: 40px;
+                font-size: 15px;
+            }
+    }
+
+    @media only screen and (max-width:770px) {
+        .arrowtoright{
+            display: none;
+        }
+    
+        .stepschild{
+            flex-direction: column;
+            gap: 50px;
+            padding: 7% 5%;
+        }
+
+        .step{
+        width: 100%;
+        }
+
+        .Downloadicon{
+            font-size:55px;}
+        
+        .gearicon{
+            font-size:55px;}
+            
+        .tagicon{
+            font-size:55px;}
+    
+        .step1title{
+                font-size: 20px;}
+        
+        .step1text{
+                font-size: 15px;}
+    }
