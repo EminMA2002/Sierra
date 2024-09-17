@@ -16,12 +16,13 @@
 
 .carouselfather{
     width: 100%;
-    height: 200vh;
+    height: 150vh;
     padding: 0 10%;
     margin-top: 170px;
 }
 
 .carouselchild{
+    padding-top: 90px;
     width: 100%;
     height: 100%;
     background-color: #0D0D0D;
@@ -69,7 +70,7 @@
     display: flex;
     gap: 20px;
     flex-wrap: nowrap;
-    transform: translateX(-40px);
+    transition: 0.7s ease;
 }
 
 .slider{
@@ -88,6 +89,7 @@
     display: flex;
     gap: 9px;
     justify-content: center;
+    align-items: center;
 }
 
 .carouselbutton{
@@ -124,3 +126,92 @@
     height: 10px;
     border-radius: 99px;
 }
+
+.button__color{
+    width: 12px;
+    height: 12px;
+    background-color: #7446F4;
+}
+
+.footexts{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footextschild{
+    width: 70%;
+    display: flex;
+}
+
+.footext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footexttitle{
+    text-align: center;
+    font-size:  18px;
+    font-family: interbold;
+    color: white;   
+}
+
+.footextcontent{
+    line-height: 20px;
+    max-width: 90%;
+    text-align: center;
+    font-size:  18px;
+    font-family: interlight;
+    color: rgba(255, 255, 255, 0.499);      
+}
+
+@media only screen and (max-width:1250px) {
+    .carouselfather{
+        padding: 0 2%;
+    }
+  
+   }
+
+@media only screen and (max-width:970px) {
+    .footextschild{
+        width: 88%;
+    }
+  
+   }
+
+@media only screen and (max-width:970px) {
+    .footexttitle{
+        font-size:  15px; 
+    }
+    
+    .footextcontent{
+        font-size:  15px;     
+    }
+  
+   }
+
+
+@media only screen and (max-width:720px) {
+    
+.carouselfather{
+    height: 180vh;
+} 
+
+.footextschild{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.youtvirtual{
+    max-width: 90%;
+    font-size:  40px;
+}
+
+.takeasneak{
+    font-size: 15px;
+}
+
+   }
