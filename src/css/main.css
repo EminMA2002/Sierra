@@ -7,21 +7,21 @@
 @import url(dta.css);
 @import url(footter.css);
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-.carouselfather{
+.carouselfather {
     width: 100%;
     height: 150vh;
     padding: 0 10%;
     margin-top: 170px;
 }
 
-.carouselchild{
+.carouselchild {
     padding-top: 90px;
     width: 100%;
     height: 100%;
@@ -31,32 +31,32 @@
     overflow: hidden;
 }
 
-.exploretheapp{
+.exploretheapp {
     text-align: center;
     font-size: 18px;
     font-family: interregu;
     color: #7446F4;
 }
 
-.youtvirtual{
+.youtvirtual {
     text-align: center;
-    font-size:  48px;
+    font-size: 48px;
     font-family: interbold;
     color: white;
 }
 
-.takeasneak{
+.takeasneak {
     text-align: center;
     font-size: 18px;
     font-family: interlight;
     color: rgba(255, 255, 255, 0.451);
 }
 
-.carouseltext{
+.carouseltext {
     width: 100%;
 }
 
-.carouseltextchild{
+.carouseltextchild {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -64,7 +64,8 @@
     gap: 20px;
 }
 
-.carousel{
+.carousel {
+    transform: translateX(-50px);
     margin-top: 70px;
     position: absolute;
     display: flex;
@@ -73,18 +74,18 @@
     transition: 0.7s ease;
 }
 
-.slider{
+.slider {
     width: 220px;
 }
 
-.sliderimg{
+.sliderimg {
     border-radius: 10px;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.carouselbuttons{
+.carouselbuttons {
     margin-top: 75vh;
     display: flex;
     gap: 9px;
@@ -92,126 +93,126 @@
     align-items: center;
 }
 
-.carouselbutton{
+.carouselbutton {
     background-color: #393939;
     width: 10px;
     height: 10px;
     border-radius: 99px;
 }
 
-.carouselbutton1{
+.carouselbutton1 {
     background-color: #393939;
     width: 10px;
     height: 10px;
     border-radius: 99px;
 }
 
-.carouselbutton2{
+.carouselbutton2 {
     background-color: #393939;
     width: 10px;
     height: 10px;
     border-radius: 99px;
 }
 
-.carouselbutton3{
+.carouselbutton3 {
     background-color: #393939;
     width: 10px;
     height: 10px;
     border-radius: 99px;
 }
 
-.carouselbutton4{
+.carouselbutton4 {
     background-color: #393939;
     width: 10px;
     height: 10px;
     border-radius: 99px;
 }
 
-.button__color{
+.button__color {
     width: 12px;
     height: 12px;
     background-color: #7446F4;
 }
 
-.footexts{
+.footexts {
     margin-top: 70px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.footextschild{
+.footextschild {
     width: 70%;
     display: flex;
 }
 
-.footext{
+.footext {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.footexttitle{
+.footexttitle {
     text-align: center;
-    font-size:  18px;
+    font-size: 18px;
     font-family: interbold;
-    color: white;   
+    color: white;
 }
 
-.footextcontent{
+.footextcontent {
     line-height: 20px;
     max-width: 90%;
     text-align: center;
-    font-size:  18px;
+    font-size: 18px;
     font-family: interlight;
-    color: rgba(255, 255, 255, 0.499);      
+    color: rgba(255, 255, 255, 0.499);
 }
 
 @media only screen and (max-width:1250px) {
-    .carouselfather{
+    .carouselfather {
         padding: 0 2%;
     }
-  
-   }
+
+}
 
 @media only screen and (max-width:970px) {
-    .footextschild{
+    .footextschild {
         width: 88%;
     }
-  
-   }
+
+}
 
 @media only screen and (max-width:970px) {
-    .footexttitle{
-        font-size:  15px; 
+    .footexttitle {
+        font-size: 15px;
     }
-    
-    .footextcontent{
-        font-size:  15px;     
+
+    .footextcontent {
+        font-size: 15px;
     }
-  
-   }
+
+}
 
 
 @media only screen and (max-width:720px) {
-    
-.carouselfather{
-    height: 180vh;
-} 
 
-.footextschild{
-    flex-direction: column;
-    gap: 30px;
+    .carouselfather {
+        height: 180vh;
+    }
+
+    .footextschild {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .youtvirtual {
+        max-width: 90%;
+        font-size: 40px;
+    }
+
+    .takeasneak {
+        font-size: 15px;
+    }
+
 }
-
-.youtvirtual{
-    max-width: 90%;
-    font-size:  40px;
-}
-
-.takeasneak{
-    font-size: 15px;
-}
-
-   }
